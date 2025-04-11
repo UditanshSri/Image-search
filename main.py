@@ -65,7 +65,7 @@ if uploaded_file is not None:
 
         with col1:
             st.image(filenames[indices[0][0]])
-        with col2:
+        with col2: 
             st.image(filenames[indices[0][1]])
         with col3:
             st.image(filenames[indices[0][2]])
